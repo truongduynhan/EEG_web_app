@@ -13,4 +13,4 @@ st.title('Visualize EEG data')
 fn = 'data/chb01_03.edf'
 signals, signal_headers, header = load_raw_data(fn)
 
-st.table(signals)
+st.wirte(signals.shape)
