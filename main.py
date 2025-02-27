@@ -11,6 +11,6 @@ st.set_page_config(
 st.title('Visualize EEG data')
 
 fn = 'data/chb01_03.edf'
-signals, signal_headers, header = load_raw_data(fn)
+# signals, signal_headers, header = load_raw_data(fn)
 
 # st.write(signals.shape)
